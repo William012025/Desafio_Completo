@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap&family=Pacifico&display=swap" rel="stylesheet"" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Amigo(a) Sorteado</title>
+</head>
+
+
+<body class ="corpo2">
+ <header class="topo2">
+            <h1 class="tituloheaderpg2"> Amigo Escolhido</h1>
+            </header>
+    
+         <main class="main-content2">
+         
+                 <p class="sorteado2" id="nomeSorteado">Carregando...     </p>
+           
+    
+                     <script>
+                    // Obtém o nome sorteado do localStorage
+                    let amigoSorteado = localStorage.getItem("amigoSorteado");
+    
+                    // Exibe o nome na tela
+                    document.getElementById("nomeSorteado").textContent = amigoSorteado ? `.... ${amigoSorteado}` : "Nenhum amigo foi sorteado.";
+    
+                    // Função para voltar à página principal
+                    function voltar() {
+                            window.location.href = "index.html";
+                      }
+                    </script>
+              
+        </main>
+<footer class = "rodape2">
+        <button class = "botaovoltar2"onclick="voltar()">Voltar</button>
+</footer>
+    
+    
+</body>
+</html>
