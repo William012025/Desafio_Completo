@@ -1,8 +1,6 @@
 let amigos = [];
 
-
 function adicionarAmigo() {
-
 
     let incluirAmigo = document.querySelector('input').value;
        if (incluirAmigo.trim() === '' ){
@@ -28,10 +26,6 @@ function adicionarAmigo() {
     }
 
 
-
-console.log(amigos);
-
-
 function listaComHTML() {
 
     let lista = document.querySelector("#listaAmigos");  
@@ -44,9 +38,8 @@ function listaComHTML() {
     }
     
 }
-
     
-    function sortearAmigo()
+function sortearAmigo()
      {
         let resultado = document.querySelector("#resultado");
     
@@ -57,19 +50,14 @@ function listaComHTML() {
         }
     
         let amigoAleatorio = Math.floor(Math.random() * amigos.length);
-    
-        // Obtém o nome sorteado
+
         let amigoSorteado = amigos[amigoAleatorio];
         resultado.innerHTML = `<p>Amig: ${amigoSorteado}</p>`;
         
-        // Armazena o amigo sorteado no localStorage
-       localStorage.setItem("amigoSorteado", amigoSorteado);
+        localStorage.setItem("amigoSorteado", amigoSorteado);
 
-    // Redireciona para a página de resultado
-       window.location.href = "index2.html";
-
-        
-      
+        window.location.href = "index2.html";
+            
     }
 
 function limparNome() {

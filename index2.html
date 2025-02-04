@@ -22,33 +22,23 @@
 
                  <div class = "elemento"> <img class="comemorando" src="assets/comemorando.png" alt="figura comemorando"></div>
                  <div class = "elemento"><p class="sorteado2" class="mostra-amigo" id="nomeSorteado">Carregando...     </p></div>
-                 
-                </div>    
-                
-                
+                    </div>    
+                                
                 <script>
-                    // Obtém o nome sorteado do localStorage
-                    let amigoSorteado = localStorage.getItem("amigoSorteado");
+                  let amigoSorteado = localStorage.getItem("amigoSorteado");
+
+                  document.getElementById("nomeSorteado").textContent = amigoSorteado ? `${amigoSorteado}` : "Nenhum amigo foi sorteado.";
     
-                    // Exibe o nome na tela
-                    document.getElementById("nomeSorteado").textContent = amigoSorteado ? `${amigoSorteado}` : "Nenhum amigo foi sorteado.";
-    
-                    // Função para voltar à página principal
-                    function voltar() {
-                            window.location.href = "index.html";
+                  function voltar() {
+                     window.location.href = "index.html";
                       }
-                    </script>
+                </script>
                 
-
-
-
-
            </section>   
         </main>
 <footer class = "rodape2">
         <button class = "botaovoltar2"onclick="voltar()">Voltar</button>
 </footer>
-    
-    
+  
 </body>
 </html>
