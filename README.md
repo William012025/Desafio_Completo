@@ -40,4 +40,6 @@ Projeto criado concluir o treinamento Alura/One que permite colocar em prática 
 	
 ## Acesso
 
-Via GitHub
+Via GitHub  
+https://desafio-completo.vercel.app/
+
