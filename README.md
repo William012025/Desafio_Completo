@@ -2,7 +2,8 @@
 	
 
 <div align=center>
-![maosmenor](https://github.com/user-attachments/assets/f7c4e882-bcf8-4209-9277-9e83f7849f1c)
+
+![maosmenor](https://github.com/user-attachments/assets/ae986606-b9b0-411a-833c-28f94b540850)
 </div>
 
 ## **Descrição**
@@ -14,12 +15,15 @@ Projeto criado concluir o treinamento Alura/One que permite colocar em prática 
 ## 🔧🔧Funcionalidades:🔧🔧 
 
 
-![tela inicial](https://github.com/user-attachments/assets/3d6ea99a-44f1-4260-acbb-1498e427a6d3)
+
+![tela inicial](https://github.com/user-attachments/assets/f15ce56a-d8f7-4462-944f-58f5c1bf7ba6)
 
 
--Criar uma lista de amigos 
--Realizar um sorteio aletório 
--Obeter o nome do Amigo sorteado <br><br>
+
+<li>Criar uma lista de amigos</li>
+<li>Obeter o nome do Amigo sorteado</li> 
+<li>Realizar um sorteio aletório</li><br><br>
+
 
 ## ✔️ Técnicas e tecnologias utilizadas✔️
 	
