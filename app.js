@@ -57,9 +57,8 @@ function sortearAmigo()
         localStorage.setItem("amigoSorteado", amigoSorteado);
 
         window.location.href = "index2.html";
-            
+    
     }
-
 
 function limparNome() {
     document.querySelector('input').value = '';
