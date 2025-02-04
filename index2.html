@@ -21,9 +21,8 @@
                 <div class= "conteiner">
 
                  <div class = "elemento"> <img class="comemorando" src="assets/comemorando.png" alt="figura comemorando"></div>
-                 <div class = "elemento"><p class="sorteado2" id="nomeSorteado">Carregando...     </p></div>
-                 <div class = "elemento"><img class="comemorando" src="assets/comemorando.png" alt="figura comemorando"> </div>
-    
+                 <div class = "elemento"><p class="sorteado2" class="mostra-amigo" id="nomeSorteado">Carregando...     </p></div>
+                 
                 </div>    
                 
                 
@@ -32,7 +31,7 @@
                     let amigoSorteado = localStorage.getItem("amigoSorteado");
     
                     // Exibe o nome na tela
-                    document.getElementById("nomeSorteado").textContent = amigoSorteado ? ` ${amigoSorteado}` : "Nenhum amigo foi sorteado.";
+                    document.getElementById("nomeSorteado").textContent = amigoSorteado ? `${amigoSorteado}` : "Nenhum amigo foi sorteado.";
     
                     // Função para voltar à página principal
                     function voltar() {
