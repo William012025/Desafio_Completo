@@ -52,13 +52,14 @@ function sortearAmigo()
         let amigoAleatorio = Math.floor(Math.random() * amigos.length);
 
         let amigoSorteado = amigos[amigoAleatorio];
-        resultado.innerHTML = `<p>Amigo: ${amigoSorteado}</p>`;
+        resultado.innerHTML = `<p>Amigo(a): ${amigoSorteado}</p>`;
         
         localStorage.setItem("amigoSorteado", amigoSorteado);
 
         window.location.href = "index2.html";
             
     }
+
 
 function limparNome() {
     document.querySelector('input').value = '';
