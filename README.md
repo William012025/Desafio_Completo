@@ -13,6 +13,10 @@ Projeto criado concluir o treinamento Alura/One que permite colocar em prática 
 
 ## 🔧🔧Funcionalidades:🔧🔧 
 
+
+![tela inicial](https://github.com/user-attachments/assets/3d6ea99a-44f1-4260-acbb-1498e427a6d3)
+
+
 -Criar uma lista de amigos 
 -Realizar um sorteio aletório 
 -Obeter o nome do Amigo sorteado <br><br>
